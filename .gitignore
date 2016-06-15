@@ -1,0 +1,12 @@
+#忽略build 文件夹
+/build
+#忽略local.properties 文件
+local.properties
+#忽略.xml 结尾的文件，使用正则
+*.iml
+#不忽略GitUseDemo.xml,这里只是为了演示，其实应该忽略的
+!GitUseDemo.iml
+#gradle 缓存文件，不需要提交
+.gradle
+#idea 的配置文件，不需要提交
+.idea
